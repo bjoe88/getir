@@ -19,9 +19,30 @@ API Gateway, Load Balancers or any other layer than the developed application.
 ## Deliverables
 
 - The public repo URL which has the source code of the project, and a set of
-instructions if there is any project specific configurations needed to run the project.
+instructions if there is any project specific configurations needed to run the project. ( https://github.com/bjoe88/getir )
 - The public endpoint URL of the deployed API which is available for testing. ( http://54.255.145.143:3000/api/v1/records )
 
+## How to run service locally
+To run this service locally, run the command below:
+```Bash
+# Clone this repository
+$ git clone https://github.com/bjoe88/getir
+
+# Navigate into the cloned repository
+$ cd getir
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run start:dev
+
+# Run test
+$ npm run test
+
+# Run coverage
+$ npm run coverage
+```
 
 ## Trade off
 
