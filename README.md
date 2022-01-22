@@ -39,9 +39,6 @@ $ npm run start:dev
 
 # Run test
 $ npm run test
-
-# Run coverage
-$ npm run coverage
 ```
 
 ## Trade off
